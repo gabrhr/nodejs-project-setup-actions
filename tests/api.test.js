@@ -2,6 +2,7 @@ const request = require("supertest");
 const app = require("../src/index");
 
 describe("API Routes", () => {
+
   it("should return 200 OK for /api route", async () => {
     const res = await request(app).get("/api");
     expect(res.status).toBe(200);
