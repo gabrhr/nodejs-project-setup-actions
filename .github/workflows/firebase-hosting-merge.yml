@@ -31,4 +31,5 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_ML24_3_CONTINUOUS_DEPLOYMENT }}
           projectId: ml24-3-continuous-deployment
+          channelId: live
           only: functions
