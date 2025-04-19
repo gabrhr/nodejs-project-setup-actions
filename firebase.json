@@ -10,9 +10,13 @@
       "**/node_modules/**"
     ],
     "rewrites": [
+       {
+        "source": "/api/**",
+        "function": "app"
+      },
       {
-        "source": "/**",
-        "function": "api"
+        "source": "/",
+        "function": "app"
       }
     ]
   }
