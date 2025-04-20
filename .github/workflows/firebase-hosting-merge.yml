@@ -24,4 +24,4 @@ jobs:
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_DEPLOY_TOKEN }}
         run: |
-          firebase deploy --only hosting,functions --project ml24-3
+          firebase deploy --only hosting,functions --project ml24-3-continuous-deployment
